@@ -1,0 +1,58 @@
+body {
+  background: linear-gradient(90deg, #000 60%, #132f56);
+}
+
+#img-caption {
+  font-style: italic;
+  margin: 10px 0 0 10px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "arial black";
+  font-style: unset;
+  color: #eca14f;
+}
+
+
+.norm-image {
+  height: auto;
+  margin: auto;
+  display: block;
+  max-width: 100%;
+  border: 0.1em solid #eca14f
+  }
+
+#img-div, .list-container {
+  margin: auto;
+  max-width: 600px;
+}
+
+h2, ul, #img-caption, p {
+  color: #fff;
+  font-family: helvetica;
+}
+
+li {
+  margin: 10px 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: darkorange;
+}
